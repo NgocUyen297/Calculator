@@ -36,6 +36,7 @@
             this.lbKetQua = new System.Windows.Forms.Label();
             this.btCong = new System.Windows.Forms.Button();
             this.btTru = new System.Windows.Forms.Button();
+            this.nutNhan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtA
@@ -97,7 +98,7 @@
             this.btCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCong.Location = new System.Drawing.Point(181, 295);
             this.btCong.Name = "btCong";
-            this.btCong.Size = new System.Drawing.Size(75, 39);
+            this.btCong.Size = new System.Drawing.Size(79, 39);
             this.btCong.TabIndex = 7;
             this.btCong.Text = "+ ";
             this.btCong.UseVisualStyleBackColor = true;
@@ -106,19 +107,31 @@
             // btTru
             // 
             this.btTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btTru.Location = new System.Drawing.Point(299, 295);
+            this.btTru.Location = new System.Drawing.Point(286, 295);
             this.btTru.Name = "btTru";
-            this.btTru.Size = new System.Drawing.Size(75, 39);
+            this.btTru.Size = new System.Drawing.Size(96, 39);
             this.btTru.TabIndex = 8;
             this.btTru.Text = "-";
             this.btTru.UseVisualStyleBackColor = true;
             this.btTru.Click += new System.EventHandler(this.btTru_Click);
+            // 
+            // nutNhan
+            // 
+            this.nutNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nutNhan.Location = new System.Drawing.Point(402, 295);
+            this.nutNhan.Name = "nutNhan";
+            this.nutNhan.Size = new System.Drawing.Size(86, 39);
+            this.nutNhan.TabIndex = 9;
+            this.nutNhan.Text = "*";
+            this.nutNhan.UseVisualStyleBackColor = true;
+            this.nutNhan.Click += new System.EventHandler(this.nutNhan_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 361);
+            this.Controls.Add(this.nutNhan);
             this.Controls.Add(this.btTru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.lbKetQua);
@@ -144,6 +157,7 @@
         private System.Windows.Forms.Label lbKetQua;
         private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.Button btTru;
+        private System.Windows.Forms.Button nutNhan;
     }
 }
 

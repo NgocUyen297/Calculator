@@ -32,5 +32,13 @@ namespace Calculator_BTH1
             double c = a - b;
             lbKetQua.Text = c.ToString();
         }
+
+        private void nutNhan_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(txtA.Text);
+            double b = double.Parse(txtB.Text);
+            double c = a * b;
+            lbKetQua.Text = c.ToString();
+        }
     }
 }
