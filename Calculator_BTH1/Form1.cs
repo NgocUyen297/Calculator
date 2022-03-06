@@ -19,7 +19,11 @@ namespace Calculator_BTH1
 
         private void btCong_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtA.Text != String.Empty)
+=======
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+>>>>>>> cal-02
             {
                 double a = double.Parse(txtA.Text);
                 double b = double.Parse(txtB.Text);
